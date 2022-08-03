@@ -1,0 +1,44 @@
+@import url(//db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular);
+body{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    display: flex;
+    margin: auto;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.head a{
+    text-decoration: none;
+}
+img{
+    cursor: pointer;
+}
+.headlink ul{
+    display: inline-flex;
+}
+.headlink a{
+    margin-right: 3rem;
+    font-family: "Graphik Web Regular";
+    font-size: 16px;
+    font-weight: 400;
+    color: #161617;
+}
+
+button{
+    background-color:#e7332b;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    font-family: "Graphik Web Regular";
+    font-size: 15px;
+    margin-right: 15px;
+    border: none;
+    padding: 11px 35px;
+}
+@media screen and (max-width: 600px){
+    .headlink ul{
+        display: none;
+    }
+}
